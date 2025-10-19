@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Generic server / backend to test GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukundmadhav054/github_actions.git"
+  },
+  "author": "Mukund Madhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukundmadhav054/github_actions/issues"
+  },
+  "homepage": "https://github.com/mukundmadhav054/github_actions#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
